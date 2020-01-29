@@ -27,6 +27,6 @@ class MyServiceSpec extends HibernateSpec implements ServiceUnitTest<MyService>,
         where:
         titleWord | searchText | resultSize
         'without' | null       | 1
-        'with'    | 'b'        | 0
+        'with'    | 'b'        | 1
     }
 }
